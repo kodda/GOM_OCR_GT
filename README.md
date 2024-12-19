@@ -1,4 +1,4 @@
-# Good Old Manuals OCR Grand Truth - 19th Century Manuals on Parisian Market Gardeners
+# Good Old Manuals OCR Ground Truth - 19th Century Manuals on Parisian Market Gardeners
 
 ## Description
 
