@@ -1,0 +1,53 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: GOM_OCR_GT
+url: https://github.com/kodda/GOM_OCR_GT
+authors:
+  - name: David
+    surname: Colliaux
+    roles:
+      - project-manager
+      - quality-control
+      - digitization
+  - name: Yanis
+    surname: Harkouk
+    roles:
+      - aligner
+      - quality-control
+institutions: []
+description: >-
+  19th Century Manuals on Parisian Market Gardeners
+
+  This dataset contains 10 pages (from p.30 to p.39) selected from each of 17
+  manuals, for a total of 170 pages, all of which describe the practices of
+  Parisian market gardeners in the 19th century.
+project-name: GOM - The Good Old Manuals Project
+project-website: https://sonycslparis.github.io/gom-webapp/#/project
+language:
+  - fra
+production-software: Kraken
+automatically-aligned: false
+script:
+  - iso: Latn
+script-type: only-manuscript
+time:
+  notBefore: '1800'
+  notAfter: '1920'
+hands:
+  count: more-than-10
+  precision: estimated
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Image-Text-Pairs
+volume:
+  - metric: pages
+    count: 170
+transcription-guidelines: >-
+  Chapter titles and page numbers have been excluded from the transcription to
+  focus solely on the content.
+
+  Line breaks have also been excluded from the transcription.
+
+  Image captions and footnotes have been included in the transcription, even if
+  they appear in the middle of a sentence, to ensure all relevant information is
+  captured.
